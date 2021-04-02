@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Pessoal</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mediaqueries.css">
+        <!--Link do Fontawesome-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!--Link do Jquery-->
+        <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+        <!--Função Javascript-->
+        <script>
+            $(document).ready(function(){
+                $('#baricone').click(function(){
+                    $('ul').toggleClass('mostrar');
+                });
+            });
+        </script>
+</head>
+
+<body>
+    <header>
+
+        <nav class="nav">
+            <label class="logo">Developer</label>
+            <ul class="ul">
+                <li class="li"><a class="ativo a">Home</a></li>
+                <li class="li"><a class="a" href="#sobre">Sobre</a></li>
+                <li class="li"><a class="a" href="#habilidades">Habilidades</a></li>
+                <li class="li"><a class="a" href="#projetos">Projetos</a></li>
+                <li class="li"><a class="a" href="#contato">Contato</a></li>
+            </ul>
+
+            <label id="baricone">
+                <i class="fa fa-bars"></i>
+            </label>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="div1">
+                <img class="img1" src="Imagens/eu1.jpeg" alt="">
+            </div>
+
+            <div class="div2">
+                <p>Olá a Todos! Me chamo,</p>
+                <h1>Mickael Fernandes</h1>
+                <p>Desenvolvedor Full Stack e Designer</p>
+            </div>
+            </section>
+
+        <section class="content2">
+            <div class="div3">
+                <img class="img2" src="Imagens/codigos.jpg" alt="">
+            </div>
+
+            <div class="div4">
+                <h2 id="sobre">Sobre</h2>
+                <p>Me chamo, Mickael Fernandes. Sou um desenvolvedor Full-Stack, conheço técnicas de programação, construção de banco de dados, e criação de sites. Possuo conhecimento nas linguagens: HTML, CSS, JAVASCRIPT, MYSQL dentre outras.</p>
+            </div>
+
+            <div class="div5">
+                <h2>Contrate</h2>
+                <p>Para me contratar ou entrar em contato clique.</p>
+                <a href="Currículo Canva.pdf" download>Download CV</a>
+            </div>
+        </section>
+
+        <section class="content3" id="habilidades">
+            <div class="div6">
+                <h2>Habilidades</h2>
+                <p>Técnicas de Desenvolvimento</p>
+            </div>
+
+            <section class="content4">
+                <div class="div div7">
+                    <button><a href="#">Saiba Mais</a></button>
+                    <h3>Desenvolvimento WEB</h3>
+                    <h4>Construção de Sites</h4>
+                    <p>Uso das linguagens HTML, CSS , Javascript PHP e MYSQL para construir sites</p>
+                </div>
+
+                <div class="div div8">
+                    <button><a href="#">Saiba Mais</a></button>
+                    <h3>Photoshop</h3>
+                    <h4>Edição de Imagens</h4>
+                    <p>Uso da ferramenta Photoshop para criação, edição e aumento da qualidade de imagens</p>
+                </div>
+
+                <div class="div div9">
+                    <button><a href="#">Saiba Mais</a></button>
+                    <h3>Bootstrap</h3>
+                    <h4>Framework para Construção de Sites</h4>
+                    <p>Biblioteca para construir sites de maneira mais prática e com qualidade</p>
+                </div>
+
+                <div class="div div10">
+                    <button><a href="#">Saiba Mais</a></button>
+                    <h3>Design UX/UI</h3>
+                    <h4><p>Lorem ipsum dolor sit, amet consectetur.</p></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </section>
+        </section>
+
+        <section class="content5" id="projetos">
+            <h2>Meus Projetos</h2>
+            <p>Se você quer desenvolver um software para a sua empresa, entre em contato! Os meus projetos estão como exemplo e mostram as minhas capacidades</p>
+            
+            <section class="content6">
+
+                        <section class="flexp">
+                            <h3>1</h3>
+                            <h4>Vida Terrestre</h4>
+                            <p>O projeto Vida Terrestre, foi criado com base na ODS 15 da ONU com a finalidade de agregar conhecimento e conscientizar o público sobre questões ambientais e ecológicas.</p>
+                            <a href="http://vidaterrestre.com.br/index.html"><button>Acesse</button></a>
+                        </section>
+
+                        <section class="flexp">
+                            <h3>2</h3>
+                            <h4>Codeschool</h4>
+                            <p>A Codeschool, é um site que tem como objetivo ensinar programação, de maneira fácil e didática para aqueles que tem o interesse de atuar nessa área de trabalho.</p>
+                            <a href="#"><button>Acesse</button></a>
+                        </section>
+
+                        <section class="flexp">
+                            <h3>3</h3>
+                            <h4>Tela Do Facebook</h4>
+                            <p>Réplica da tela inicial do Facebook, com ao banco de dados MYSQL para cadastro de usuário e integração com PHP para ligação dos dados cadastrados.</p>
+                            <a><button>Acesse</button></section></a>
+                        </section>
+            </section>
+
+        </section> 
+
+        <section class="emailsec">
+            <h3>Se tem algum Projeto em Mente.</h3>
+            <hr>
+            <a href="mailto:mickaelbpsouza@gmail.com"><button><b>Contate-Me</b></button></a>
+        </section>
+ </main>
+
+ <footer>
+
+     <h3>Para a Internet</h3>
+     <p>Se você gostou do meu trabalho. Entre em contato, e receba um trabalho com qualidade e eficiência!</p>
+
+     <ul>
+        <ul class="social-media" id="contato">
+            <li class="social-icons"><a href="https://www.facebook.com/mickael.fernandes.7334" target="blanck"><i class="fa fa-facebook icon"></i></a></li>
+            <li class="social-icons"><a href="#"><i class="fa fa-instagram icon"></i></a></li>
+            <li class="social-icons"><a href="https://www.linkedin.com/in/mickael-fernandes-bispo-de-souza-8ab2b01b8/ " target="blanck"><i class="fa fa-linkedin icon"></i></a></li>
+            <li class="social-icons"><a href="https://github.com/MickaelFernandes7" target="blanck"><i class="fa fa-github icon"></i></a></li>
+        </ul>
+    </div>
+     </ul>
+ </footer>
+
+</body>
+
+</html>

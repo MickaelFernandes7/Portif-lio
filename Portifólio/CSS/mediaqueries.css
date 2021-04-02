@@ -1,0 +1,541 @@
+@media (max-width: 1026px){
+    /*Mudança nas proporções da Logo do Site*/
+    .logo{font-size: 32px; padding-left: 60px; }
+
+    /*Alteração no margin da lista não ordenada*/
+    .nav .ul{margin-right:20px;}
+
+    /*Alteração na ancora da lista não ordenada*/
+    .nav .a{font-size: 17px;}
+    
+        .div6 > h2{font-size: 40px; 
+        color: #fff; 
+        margin-top: 20%; 
+        margin-left: 15px;}
+
+        .div6 > p{font-size: 30px; 
+        color: #fff; 
+        margin-top: 30px; 
+        margin-left: 15px;}
+
+        .content4{height: 450px; 
+        width: 100%; 
+        display: flex; 
+        justify-content: space-around; 
+        flex-flow: row wrap; 
+        align-content: space-around; 
+        background-color: #2b2a2a;}
+
+        /*Div das Habilidades*/
+        .div{width: 345px;
+        height: 175px; 
+        background-image: linear-gradient(to right, #000, lightgray);
+        color: #fff; 
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        margin-top: 2%;
+        background-size: 100%;}
+
+        .flexp {width: 300px; 
+                height: 370px; 
+                background-color: #2b2a2a; 
+                margin-top: 6%; 
+                margin-right: 2.4%;
+                cursor: pointer;
+                box-shadow: -5px 10px 35px #000;}
+
+        .flexp > h4{font-size: 30px; 
+                font-family: Arial; 
+                text-align: center; 
+                margin-top: 5.5%;}
+
+        .flexp > p{font-size: 17.5px; 
+                margin-top: 11%; 
+                padding-left: 3%;}
+
+        .flexp > a > button{width: 110px; 
+                height: 30px; 
+                margin-left: 35%;
+                margin-top: center; 
+                background-color: #fff; 
+                color:black; 
+                border: none; 
+                border-radius: 5px;
+                cursor: pointer;}
+        
+         
+        .emailsec > h3{padding-top: 14%;
+                font-size: 32px;
+                font-family: Arial, sans-serif;
+                margin-right: 25px;}
+
+        hr{width: 49%; 
+                margin-left: 24.5%;}
+
+        footer > h3{ margin-left: 40%;}
+
+        .social-media{margin-left: 39%;}
+        
+}
+
+@media (max-width: 909px){    
+    
+    /*Faz o ícone hamburguer aparecer*/
+    .nav #baricone{display: block; color: #000;}
+    /*Alteração na lista não ordenada*/
+    .nav .ul{position: fixed; 
+        width: 100%; 
+        height: 100vh; 
+        background: #fff; 
+        top: 80px; 
+        left: -100%; 
+        text-align: center; 
+        transition: all .5s; }
+        /*Faz as LI´s da lista não ordenada aparecerem, e alterações nas LI´s*/
+        .nav .li{display: block; 
+        margin: 50px 0; 
+        line-height: 30px;}
+
+        /*Alteração na ancora da lista não ordenada*/
+        .nav .a{font-size: 20px;}
+
+        /*Alteração na ancora da lista não ordenada*/
+        .a.ativo, .a:hover{border:solid 1px #000; color:#000;}
+    
+        /*Faz o efeito para mostrar o menu responsivo*/
+        .nav .ul.mostrar{left:0;}
+        }
+
+        @media(max-width:321px){
+
+        body{width: 100%;}
+        main{height: 3750px; width: 100%;}
+        /*Menu de navegação*/
+        .nav {display: flex;justify-content: space-around;}
+        /*Faz o ícone hamburguer aparecer*/
+        .nav #baricone{display: block;
+            font-size:20px;   
+            cursor:pointer;
+            background-color: #fff;
+            color: #000;
+            padding-right: 15px;}
+        
+        .content{display: flex;
+                width: 100%;  
+                height: 430px;
+                background-color:#2b2a2a;}
+        
+        .div1{width: 100%; 
+                height: 400px; 
+                padding-top: 13px; 
+                background-color:#2b2a2a;}
+
+        .img1{width: 175px; 
+                height: 100%; 
+                object-fit: cover; 
+                border-radius: 15px; 
+                margin-left: -25px;}
+
+        .div2{width: 80%; 
+                height: 450px; 
+                color: #fff; 
+                margin-right: 5%; 
+                padding-top: 13%;}
+        
+        .div2 > p{font-size: 19px; 
+                padding-left:10px; 
+                padding-top: 35px;}
+        
+        .div2 > h1{font-size: 19px; 
+                font-family: Arial, Helvetica, sans-serif; 
+                padding-left:10px; 
+                padding-top: 35px;}
+        
+        /*Sobre e Meus Projetos*/
+        /*Sobre e Meus Projetos*/
+
+        .content2{display: flex;
+                flex-flow: column nowrap ;
+                align-items: center;
+                width: 100%;  
+                height: 910px;
+                color: #fff;}
+
+        .div3{width: 100%; 
+                height: 200px; 
+                margin-right: 20px;}
+
+        .img2{width: 90%;
+                height: 235px;
+                line-height: 80px;  
+                border-radius:10px;  
+                margin-left: 25px;
+                object-fit: cover;}
+
+        .div4{width: 85%; 
+                height: 260px;
+                padding-left: 10px;
+                margin-top: 40%;
+                margin-left: 15px;}
+
+        .div4 > h2{font-size: 25px; 
+                font-family: Arial, Helvetica, sans-serif;
+                padding-right: 15px;
+                padding-top: 15px;
+                color: #000;}
+
+        .div4 > p{font-size: 20px; padding-top: 15px;
+        color: #000;}
+
+        .div5{width: 85%; 
+                height: 270px;  
+                margin-top: 0;
+                margin-right: 20px;
+                margin-left: 15px;
+                padding-left: 10px;}
+
+        .div5 > h2{font-size: 25px; 
+                color: #000; 
+                font-family: Arial, Helvetica, sans-serif; 
+                padding-top: 70px;}
+    
+        .div5 > p{font-size: 20px; 
+                margin-bottom: 7%;
+                padding-top: 15px;
+                color: #000;}
+    
+        .div5 >a{color: #000; 
+                font-size: 20px;}
+
+        .div5 >a:hover{color:lightgray; 
+                transition: 0.5s;}
+    
+
+        /*Habilidades*/
+        .content3{display: flex;
+                width: 100%;
+                height: 990px;
+                flex-direction: column;
+                background-color: #494949;}
+        
+        .div6{width: 80%; 
+                height: 250px;}
+        
+        .div6 > h2{font-size: 30px; 
+                color: #fff; 
+                margin-top: 65px;
+                margin-left: 47.5px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;}
+                
+        .div6 > p{font-size: 25px; 
+                color: #fff; 
+                margin-top: 45px;
+                margin-left: 47.5px;
+                text-align: center;}
+        
+        .content4{height: 750px; 
+                width: 100%; 
+                display: flex;  
+                background-color: #494949;}
+        
+                /*Div das Habilidades*/
+        .div{width: 85%;
+                height: 125px; 
+                background: linear-gradient(to right, #000, lightgray);
+                color: #fff; 
+                border-radius: 5px; 
+                outline: none;}
+        
+        .div > button{display: none;}
+        
+        .div > button > a{color: #fff;}
+        
+        .div > h3{margin-top: 14px; 
+                margin-left: 12px; 
+                font-family:Arial, Helvetica, sans-serif; 
+                font-size: 19px;}
+        
+        .div > h4{margin-top: 3px; 
+                margin-left: 12px; 
+                font-size: 17px;}
+        
+        .div > p{margin-top: 5px; 
+                margin-left: 12px; 
+                font-size: 14px;}
+                
+        .content5{width: 100%; height: 170px;}
+        
+        .content5 > h2{font-size: 25px; 
+                text-align:center ; 
+                margin-right: 4.5%; 
+                margin-top: 10%;}
+        
+        .content5 > p{display: none;}
+
+        .content6{width: 100%; 
+                height: 1150px;
+                display: flex;
+                flex-flow: column nowrap; 
+                margin-top: 11.5%;}
+        
+        .flexp {width: 93%;
+                height: 450px; 
+                margin-bottom: 16%; 
+                margin-left:3%;
+                box-shadow: -5px 10px 25px #000;}
+
+
+        .flexp > h4{font-size: 25px; 
+                font-family: Arial; 
+                text-align: center; 
+                margin-top: 3.5%;
+                margin-left: 3%;}
+
+        .flexp > p{font-size: 17px; 
+                margin-top: 7%;                 
+                padding-left: 3.5%;}
+
+        .flexp > a > button{width: 110px; 
+                height: 30px; 
+                margin-left: 32%;  
+                margin-top: 8.5%;
+                font-family: Arial, sans-serif;}
+        
+        .emailsec{width: 100%; 
+                height: 180px; 
+                background-color: #2b2a2a; 
+                color: #fff;;
+                margin-top: 1050px;}
+
+        .emailsec > h3{padding-top: 16.5%;
+                font-size: 19px;
+                padding-left: 20px;
+                font-family: Arial, sans-serif;
+                        }
+
+        hr{display: none;}
+                        
+        .emailsec > a > button{width: 130px; 
+                height:30px; 
+                font-family: Arial; 
+                font-size: 15px; 
+                border: none;
+                margin-left: 3%; 
+                border-radius: 3px;
+                margin-top: 7%;}
+
+        /*Footer*/
+        footer{width: 100%; 
+                height:300px;}
+        
+        footer > h3{margin-left: 23%; 
+                font-size: 25px; 
+                padding-top: 10%; 
+                color: #2b2a2a;
+                font-family: Arial, sans-serif;}
+
+        footer > p{font-size: 21.5px; 
+                margin-left: 7.8%; 
+                margin-top:5.5%;
+                text-align: center;
+                width: 75%;
+                color: #2b2a2a;}
+
+        .social-media{font-size:20px;  
+                margin-left: 16.5%; 
+                margin-top: 26px; 
+                display: flex;}
+                            
+        /*Caixa dos Ícones*/
+        .icon{padding-top: 10px; 
+                border:#fff solid none;
+                background-color:#e2e1e1; 
+                border-radius: 50%; 
+                text-align:center;
+                margin-right: 20px; 
+                width: 39px; 
+                height: 39px;
+                color: #000;}
+                        
+
+        }
+
+@media (max-width: 768px) and (min-width: 425px){
+
+        .div4{width: 85%; 
+                height: 320px;
+                margin-right: 20px; 
+                padding-top: 20px;
+                margin-top: 15px;}
+
+        .div4 > h2{font-size: 30px; 
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 15px; margin-left: 20px;}
+        .div4 > p{font-size: 21px; padding-top: 5px; margin-left: 20px;}
+
+        .div5 > h2{font-size: 30px; padding-top: 15px; margin-left: 20px;}
+        .div5 > p{font-size: 21px; padding-top: 5px; margin-left: 20px;}
+        .div5 >a{font-size: 21px; margin-left: 20px;}
+
+        /*habilidades*/
+        .div6{width: 192px; 
+                height: 250px;  
+                margin-top: 10%;
+                padding-right: 10%;
+                background-color: #2b2a2a; 
+                }
+
+        .div6 > h2{font-size: 30px; 
+                color: #fff; 
+                margin-top: 20%;
+                margin-right: 30px; 
+                }
+
+        .div6 > p{font-size: 25px; 
+                color: #fff; 
+                margin-top: 30px; 
+                }
+
+        
+        .content4{height: 550px; 
+                width: 100%; 
+                display: flex; 
+                justify-content: space-around; 
+                flex-flow: row wrap;
+                margin-left: 1%; 
+                align-content: center; 
+                background-color: #2b2a2a;}
+
+        .div{width: 260px;
+                height: 185px; 
+                background-image: linear-gradient(to right, #000, lightgray);
+                color: rgba(255, 255, 255, 0.938); 
+                border-radius: 5px;
+                outline: none;
+                cursor: pointer;
+                margin-top: 10%;
+                background-size: 100%;}
+ 
+        
+        .div > h3{margin-top: 24px; 
+                        margin-left: 12px; 
+                        font-family:Arial, Helvetica, sans-serif; 
+                        font-size: 23px;}
+
+        .div > h4{margin-top: 8px; 
+                margin-left: 12px; 
+                font-size: 16px;}
+
+        .div > p{margin-top: 9px; 
+                margin-left: 12px; 
+                font-size: 15.5px;}
+
+        .div > button{display: none;}
+
+        .content5 > h2{font-size: 33px; 
+                font-family: Arial, sans-serif; 
+                margin-left: 5%; 
+                margin-top: 3%;}
+
+        .content5 > p{font-size: 23px; 
+                margin-left: 5%; 
+                width: 40%; 
+                margin-top: 1%;
+                margin-bottom: 1.5%;}
+
+        .content6{width: 100%; 
+                height: 470px;
+                display: flex; 
+                justify-content: space-between;
+                background-color: white; 
+                color: #fff;}
+        
+        .flexp {width: 250px; 
+                height: 370px; 
+                background-color: #2b2a2a; 
+                margin-top: 6%; 
+                cursor: pointer;
+                box-shadow: -5px 10px 35px #000;}
+
+        .flexp:hover{transform: translateY(-50px); 
+                transition: 1s;}
+
+        .flexp > h3{border-radius: 50%; 
+                border: none solid white; 
+                font-size:35px; 
+                text-align:center; 
+                height: 55px; 
+                width: 55px; 
+                padding-top: 7.5px; 
+                color: black; 
+                background-color: #fff; 
+                margin-left: 40%; 
+                margin-top: 5.5%;}
+
+        .flexp > h4{font-size: 30px; 
+                font-family: Arial; 
+                text-align: center; 
+                margin-top: 5.5%;}
+
+        .flexp > p{font-size: 17.5px; 
+                margin-top: 11%; 
+                padding-left: 2.5%;}
+
+        .flexp > a > button{width: 120px; 
+                height: 30px; 
+                margin-left: 27%; 
+                background-color: #fff; 
+                margin-top: 9.5%;
+                color:black; 
+                border: none; 
+                border-radius: 5px;
+                cursor: pointer;}
+        
+        .emailsec{width: 100%; 
+                height: 370px; 
+                background-color: #2b2a2a;
+                color: #fff;
+                text-align: center;
+                margin-top: 9%;}
+                        
+        .emailsec > h3{padding-top: 17.5%;
+                font-size: 30px;
+                font-family: Arial, sans-serif;
+                margin-right: 25px;}
+
+        hr{width: 61%; 
+                margin-left: 18%;}
+                        
+        .emailsec > a > button{width: 200px; 
+                height:40px; 
+                font-family: Arial; 
+                font-size: 15px; 
+                border: none;
+                outline: none; 
+                border-radius: 3px;
+                margin-top: 5%;
+                background-color: #fff;
+                margin-right: 10px;
+                cursor: pointer;}
+                
+        footer > h3{margin-left: 36.3%; 
+                font-size: 31px; 
+                padding-top: 2.9%; 
+                color: #2b2a2a;
+                font-family: Arial, sans-serif;}
+        
+        footer > p{font-size: 23px; 
+                padding-left:10%;
+                margin-left: 17.5%; 
+                margin-top:1.5%;
+                text-align: center;
+                width: 56%;
+                color: #2b2a2a;}
+        
+        .social-media{font-size:23px;  
+                margin-left: 34%; 
+                margin-top: 26px; 
+                display: flex;}
+}
